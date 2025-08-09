@@ -18,3 +18,9 @@ curl -X POST http://localhost:8080/send \
         "smtp_password":"app_pass"
     }'
 ```
+
+## Креды для теста
+```bash
+"smtp_login":"nomadbaj@gmail.com",
+"smtp_password":"wbtl bhph zvir xqde"
+```
