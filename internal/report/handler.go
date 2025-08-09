@@ -21,7 +21,6 @@ func (h *Handler) Create(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Валидэйшн
 	if dto.CVURL == "" {
 		http.Error(w, "Поле cv_url обязательно", http.StatusBadRequest)
 		return
